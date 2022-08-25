@@ -1,0 +1,11 @@
+{
+	"dependencies": {
+		"bindbc-sdl": "~>1.2.1"
+	},
+	"versions": [
+		"SDL", "SDL_Image", "SDL_TTF", "SDL_Mixer"
+	],
+	"name": "evade-the-creeps",
+	"authors": ["ResCXsention"],
+	"license": "MIT"
+}
