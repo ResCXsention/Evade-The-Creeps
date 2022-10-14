@@ -202,7 +202,7 @@ class Enemy : Entity {
 
 	this(SDL_Renderer* gRenderer, int spawnX, int spawnY, Enemy[25]* a, ushort aI, Player* plr, bool* flg){
 		super(gRenderer, spawnX, spawnY);
-		speed = baseSpeed;
+		speed = baseSpeed - 2;
 		eType = uniform(0, 3);
 		index = aI;
 		arr = a;

@@ -50,8 +50,8 @@ immutable int SCREEN_H = 720;
 immutable int FPS = 30;
 immutable int PRESTART = 4000;
 
-int minSpawnNext = 250;
-int maxSpawnNext = 900;
+int minSpawnNext = 500;
+int maxSpawnNext = 1500;
 
 void init(){
 	mainWindow = SDL_CreateWindow("Dodge The Creeps!", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_W, SCREEN_H, SDL_WINDOW_SHOWN);
@@ -255,7 +255,7 @@ void main(){
 	if(!operational){
 		writeln("Critical failure! Ensure all files are in the correct locations before trying again.");
 		writeln("Press any key to exit:");
-		getch();
+		//getch();
 	}
 
 	return;
